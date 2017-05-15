@@ -24,9 +24,26 @@ module.exports = {
       "type": "string",
       "message": "Author"
     },
-    "projectType": {
+    "Category": {
       "type": "string",
-      "message": "Type of project"
+      "message": "Category",
+      "choices": [
+        {
+          "name": "Social",
+          "value": "social",
+          "short": "social"
+        },
+        {
+          "name": "Music",
+          "value": "music",
+          "short": "music"
+        },
+        {
+          "name": "Tools",
+          "value": "tools",
+          "short": "tools"
+        }
+      ]
     },
     "build": {
       "type": "list",
