@@ -24,6 +24,10 @@ module.exports = {
       "type": "string",
       "message": "Author"
     },
+    "projectType": {
+      "type": "string",
+      "message": "Type of project"
+    },
     "build": {
       "type": "list",
       "message": "Vue build",
