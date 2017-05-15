@@ -25,7 +25,7 @@ module.exports = {
       "message": "Author"
     },
     "Category": {
-      "type": "string",
+      "type": "list",
       "message": "Category",
       "choices": [
         {
